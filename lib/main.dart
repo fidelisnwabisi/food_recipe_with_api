@@ -1,5 +1,7 @@
 import 'package:flutter/material.dart';
 
+import 'views/home.dart';
+
 void main() {
   runApp(const MyApp());
 }
@@ -17,7 +19,7 @@ class MyApp extends StatelessWidget {
         primaryColor: Colors.white,
         textTheme: const TextTheme(bodyMedium: TextStyle(color: Colors.white)),
       ),
-      home: Scaffold(),
+      home: HomePage(),
     );
   }
 }
